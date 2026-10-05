@@ -30,7 +30,7 @@ interface FoodAnalysis {
   notes: string;
 }
 
-const MODEL = "gemini-2.5-flash-lite";
+const MODEL = "gemini-3.5-flash-lite";
 
 // Keep the image reasonably small for a serverless request.
 const MAX_IMAGE_BASE64_LENGTH = 3_500_000;
